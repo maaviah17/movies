@@ -1,12 +1,42 @@
-# React + Vite
+# 🎬 MovieFinder - Your Personal Movie Search Engine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and smart React.js application to search for your favorite movies, powered by Appwrite for backend services.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔎 **Live Movie Search**  
+  Search any movie by title and instantly see:
+  - ⭐ IMDB rating  
+  - 🌐 Language  
+  - 📅 Release year
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⏳ **Debounced Search Input**  
+  Built-in debouncing prevents unnecessary API calls, giving you a smooth and optimized experience.
+
+- 📈 **Trending Movies Section**  
+  Automatically shows the top 7 most searched movies — updated based on real user searches.
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend:** React.js  
+- **Backend:** Appwrite (for storage, database & search analytics)
+
+
+---
+
+## 🛠️ Setup Instructions
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/maaviah17/movies.git
+
+# 2. Install dependencies
+cd movies
+npm install
+
+# 3. Run the project
+npm start
