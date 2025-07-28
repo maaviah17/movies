@@ -143,6 +143,8 @@
   }
 }
 
+/* from-[#D6C7FF] to-[#AB8BFF] */
+/* from-[#c96ba2] to-[#c313c9] */
 @utility text-gradient {
   @apply bg-linear-to-r from-[#D6C7FF] to-[#AB8BFF] bg-clip-text text-transparent;
 }
